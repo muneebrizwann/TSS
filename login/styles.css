@@ -1,0 +1,32 @@
+/* body{
+    background-color: black;
+} */
+.heading{
+    background-color: blue;
+    margin: auto;
+}
+.User{
+    padding-top: 20%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.Password{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.button{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.Signin{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
