@@ -1,32 +1,51 @@
-/* body{
-    background-color: black;
-} */
-.heading{
-    background-color: blue;
-    margin: auto;
-}
-.User{
-    padding-top: 20%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-}
-.Password{
-    margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-}
-.button{
-    margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-}
-.Signin{
-    margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
+body {
+  background-color: rgb(229, 229, 229);
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+.heading {
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+form {
+  max-width: 300px;
+  margin: 50px auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.User,
+.Password,
+.button,
+.Signin {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: rgb(21, 126, 192);
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: rgb(13, 102, 191);
+}
